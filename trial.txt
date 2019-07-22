@@ -1,0 +1,10 @@
+set terminal jpeg
+set output "insertionnew.jpeg"
+set style histogram cluster
+set style fill solid
+set boxwidth 1.5
+set ylabel "average time(in milliseconds)"
+set xlabel "number of elements(N)"
+set grid ytics
+set style data linespoints
+plot "insertionnew"
